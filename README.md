@@ -1,6 +1,6 @@
 # SIN 492 - Internet das Coisas - Aula Prática 5
 ### 2022-1
-Descrição da Aula Prática:
+Descrição da Aula Prática: Nesta aula prática o estudante criará um seriço de Monitoramento IoT baseado nas ferramentas [Mosquitto]([https://link-url-here.org](https://mosquitto.org/))
 
 ### Passos:
 1. Inicialize o PC do Laboratório PVA 227 com Ubuntu. (Utilize seta para baixo no processo de Boot.)
