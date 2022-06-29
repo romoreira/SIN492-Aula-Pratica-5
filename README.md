@@ -45,6 +45,7 @@ Note que ao clicar em salvar, aparecerá o resultado do teste acima do botão, s
 22. Neste ponto terá aparecido um gráfico sem nenhuma informação. Por enquanto vamos deixar assim, não clique fora dessa área. :upside_down_face:
 ___
 A partir de agora, precisamos povoar o Banco de Dados (InfluxDB) com informações relacionados às coletas dos sensores IoT. Como não temos sensores IoT, usaremos um script em Python que atuará como tal.
+
 23. Abra uma nova aba no Terminal `CTRL + Shift + T` (ou outro Terminal) e instale o seguinte pacote: `pip3 install paho-mqtt` e `pip install paho-mqtt` &rarr; com esse cliente é possível publicar dados em um Broker MQTT.
 24. Abra o diretório *03-iotclient* por meio dos comandos: `cd 03-iotclient`. Note dentro do arquivo `iot-sensor.py` algumas informações importantes (digite o comando: `nano iot-sensor.py`:
 * O Endereço IP do Broker: 127.0.0.1
