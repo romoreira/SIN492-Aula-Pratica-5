@@ -70,6 +70,7 @@ Configuração da ligação entre os pontos do grafico (TimeSeries): se nulo lig
 ![Configuração da Ligração dos Pontos quando nulo](img/3.png)
 
 Nome do Gráfico *Temperatura*:
+
 ![Configuração do nome do grafico](img/4.png)
 
 27. Clique a opção salvar no canto superior direito e dê um nome ao Dashboard, *Temperatura*. Conforme imagem abaixo.
