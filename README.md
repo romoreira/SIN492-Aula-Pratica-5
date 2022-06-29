@@ -56,14 +56,17 @@ Vamos retomar para o Broser (Firefox) e terminar de configurar os dados para apa
 26. Agora, deverá estar aparecendo as configurações: `Metrics`, vamos ajustar alguns parâmetros de busca no Banco de Dados conforme abaixo:
 ![Configuração da Consulta ao Bando de Dados](img/1.png)
 
-Demais configurações do *Dashboard* precisam ser configuradas conforme imagens abaixo:
+Configuração do nome do eixo-Y (y-Axis) para Temperatura em Celsius
 ![Configuração da Consulta ao Bando de Dados](img/2.png)
+Configuração da ligação entre os pontos do grafico (TimeSeries): se nulo ligue os últimos pontos.
 ![Configuração da Consulta ao Bando de Dados](img/3.png)
+Nome do Gráfico *Temperatura*
 ![Configuração da Consulta ao Bando de Dados](img/4.png)
-![Configuração da Consulta ao Bando de Dados](img/5.png)
 27. Clique a opção salvar no canto superior direito e dê um nome ao Dashboard, *Temperatura*. Conforme imagem abaixo.
-![Configuração da Consulta ao Bando de Dados](img/6.png)
+Processo de *Save* do dashboard, menu direito superior para salvar.
+![Configuração da Consulta ao Bando de Dados](img/5.png)
 29. Agora na tela inicial: Dashboards &rarr; Home note que as informações de temperatura (*fake*) estarão aparecendo no gráfico. Tudo isso euquanto o cliente estiver mandando seus dados. Veja imagem abaixo.
+![Configuração da Consulta ao Bando de Dados](img/6.png)
 ### Nesse ponto, você pode imaginar quantas aplicações ou sensores poderiam ser construídas a partir desse deplyoment? Quantos dashboards poderiam ser criados?
 
 
