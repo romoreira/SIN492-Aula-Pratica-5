@@ -33,11 +33,11 @@
 17. Abra o Browser (Firefox) e tente acessar o seriço Grafana: `http://127.0.0.1:3000/` *Usuário:* `admin` e *Password:* `admin` (Será pedida a alteração da senha no primeiro login, mantenha a mesma :grinning: ).
 18. Vá em *Configuration* &rarr; *Data Sources*  &rarr; *Add data source*
 19. Escolha o Data source type: *InfluxDB* e Preencha os campos para conexão com o banco de dados conforme abaixo:
-* Name: InfluxDB
+* Name: *InfluxDB*
 * URL: http://influxdb:8086
-* Database: iothon_db
-* User: root
-* Password: root
+* Database: *iothon_db*
+* User: *root*
+* Password: *root*
 * Clique em: `Save & Test`
 Note que ao clicar em salvar, aparecerá o resultado do teste acima do botão, se tudo estiver correto, aparecerá: _Data source is working_.
 20. Clique em `Back`
