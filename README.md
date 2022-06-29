@@ -38,7 +38,7 @@ Nsse momento serão criados Containers (Docker) das Aplicações: Mosquitto (Bro
 * Clique em: `Save & Test`
 Note que ao clicar em salvar, aparecerá o resultado do teste acima do botão, se tudo estiver correto, aparecerá: _Data source is working_.
 20. Clique em `Back`
-21. Clique em Create &rarr; Dashboard &rarr; Graph (No menu esquerdo pelo icone de mais $$+$$)
+21. Clique em Create &rarr; Dashboard &rarr; Graph (No menu esquerdo pelo icone de mais +)
 22. Neste ponto terá aparecido um gráfico sem nenhuma informação. Por enquanto vamos deixar assim, não clique fora dessa área.
 ___
 A partir de agora, precisamos povoar o Banco de Dados (InfluxDB) com informações relacionados às coletas dos sensores IoT. Como não temos sensores IoT, usaremos um script em Python que atuará como tal.
