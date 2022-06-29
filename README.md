@@ -52,6 +52,7 @@ A partir de agora, precisamos povoar o Banco de Dados (InfluxDB) com informaçõ
 * A Porta do Serviço de Rede: 1883
 * O Tópico dentro do Mosquitto que ele está escrevendo os valores: `iothon/bme280/temperature` &rarr; **bme280** é a referência à um sensor de temperatura (*fake*) e **temperature** é sua percepção do ambiente.
 * Esse script fica a cada dois segundos mandando um número aleatório para o Broker MQTT. esse número aleatório simula um sensor de temperatura. Fique a contade para alterar o range de temperatura.
+* Saia da edição sem alterar nada (caso queira pode alterar): `CTRL + X`
 24. Vamos colocar esse sensor IoT para mandar os dados para o MQTT Broker, para isso rode o sensor com o seguinte comando: `python3 iot-sensor.py` &rarr; note que a saída informará que estão sendo enviados dados para o Broker.
 ___
 Vamos retomar para o Broser (Firefox) e terminar de configurar os dados para aparecerem no Gráfico.
