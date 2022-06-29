@@ -4,7 +4,7 @@
 
 **Objetivos**: Com esta aula o estudante fica apto a construir Aplicações IoT utilizando ferramentas atuais do mercado.
 
-**Método**: Laboratório Prático (PVA 227), com instruções procedural documentada e apoio individualizado no processo de execução do laboratório.
+**Método**: Laboratório Prático (PVA 227), com instruções procedural documentadas e apoio individualizado no processo de execução do laboratório.
 
 ### Passos:
 1. Inicialize o PC do Laboratório PVA 227 com Ubuntu. (Utilize seta para baixo no processo de Boot.)
@@ -55,21 +55,22 @@ A partir de agora, precisamos povoar o Banco de Dados (InfluxDB) com informaçõ
 * Saia da edição sem alterar nada (caso queira pode alterar): `CTRL + X`
 24. Vamos colocar esse sensor IoT para mandar os dados para o MQTT Broker, para isso rode o sensor com o seguinte comando: `python3 iot-sensor.py` &rarr; note que a saída informará que estão sendo enviados dados para o Broker.
 ___
-Vamos retomar para o Broser (Firefox) e terminar de configurar os dados para aparecerem no Gráfico.
-* Note que nesse ponto nenhuma informação está sendo exibida no gráfico, faremos essa configuração agora
+Vamos retomar para o Browser (Firefox) e terminar de configurar os dados para que eles apareçam no Gráfico.
+> **_NOTE:_** Note que nesse ponto nenhuma informação está sendo exibida no gráfico, faremos essa configuração agora. :wink:
 25. Clique na seta *Panel Title* acima do gráfico e esoclha a opção `Edit`
 26. Agora, deverá estar aparecendo as configurações: `Metrics`, vamos ajustar alguns parâmetros de busca no Banco de Dados conforme abaixo:
 ![Configuração da Consulta ao Bando de Dados](img/1.png)
 
 Configuração do nome do eixo-Y (y-Axis) para Temperatura em Celsius
-![Configuração da Consulta ao Bando de Dados](img/2.png)
+![Configuração do Eixo](img/2.png)
 Configuração da ligação entre os pontos do grafico (TimeSeries): se nulo ligue os últimos pontos.
-![Configuração da Consulta ao Bando de Dados](img/3.png)
+![Configuração da Ligração dos Pontos quando nulo](img/3.png)
 Nome do Gráfico *Temperatura*
-![Configuração da Consulta ao Bando de Dados](img/4.png)
+![Configuração do nome do grafico](img/4.png)
 27. Clique a opção salvar no canto superior direito e dê um nome ao Dashboard, *Temperatura*. Conforme imagem abaixo.
 Processo de *Save* do dashboard, menu direito superior para salvar.
-![Configuração da Consulta ao Bando de Dados](img/5.png)
+![Processo final](img/5.png)
+
 29. Agora na tela inicial: Dashboards &rarr; Home note que as informações de temperatura (*fake*) estarão aparecendo no gráfico. Tudo isso euquanto o cliente estiver mandando seus dados. Veja imagem abaixo.
 ![Configuração da Consulta ao Bando de Dados](img/6.png)
 ### Nesse ponto, você pode imaginar quantas aplicações ou sensores poderiam ser construídas a partir desse deplyoment? Quantos dashboards poderiam ser criados?
