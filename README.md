@@ -2,7 +2,7 @@
 ### 2022-1
 **Descrição**: Nesta aula prática o estudante criará um seriço de Monitoramento IoT baseado nas ferramentas: [Docker](https://www.docker.com/), [Mosquitto](https://mosquitto.org), [InfluxDB](https://www.influxdata.com/), [Grafana](https://grafana.com/). A construção do cenário considera conhecimento prévio em Comunicação em Rede de Computadores e Programação de Computadores.
 
-**Objetivos**: Com esta aula o estudante fica apto a construir Aplicações IoT utilizando ferramentas atuais do mercado.
+**Objetivos**: Com esta aula o estudante ficará apto a construir Aplicações IoT utilizando ferramentas atuais do mercado.
 
 **Método**: Laboratório Prático (PVA 227), com instruções procedural documentadas e apoio individualizado no processo de execução do laboratório.
 
