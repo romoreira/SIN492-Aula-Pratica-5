@@ -77,7 +77,7 @@ Processo de *Save* do dashboard, menu direito superior para salvar:
 
 ![Processo final](img/5.png)
 
-29. Agora na tela inicial: *Dashboards* &rarr; *Home* note que as informações de temperatura (*fake*) estarão aparecendo no gráfico. Tudo isso euquanto o cliente estiver mandando seus dados. Veja imagem abaixo:
+28. Agora na tela inicial: *Dashboards* &rarr; *Home* note que as informações de temperatura (*fake*) estarão aparecendo no gráfico. Tudo isso euquanto o cliente estiver mandando seus dados. Veja imagem abaixo:
 
 ![Configuração da Consulta ao Bando de Dados](img/6.png)
 
