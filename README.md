@@ -31,7 +31,7 @@ Nsse momento serão criados Containers (Docker) das Aplicações: Mosquitto (Bro
 * 3000 - Grafana
 * 1883 - Mosquitto
 * 8086 - InfluxDB
-17. Abra o Browser (Firefox) e tente acessar o seriço Grafana: `http://127.0.0.1:3000/` *Usuário:* `admin` e *Password:* `admin` (Será pedida a alteração da senha no primeiro login, mantenha o mesma :relaxed:).
+17. Abra o Browser (Firefox) e tente acessar o seriço Grafana: `http://127.0.0.1:3000/` *Usuário:* `admin` e *Password:* `admin` (Será pedida a alteração da senha no primeiro login, mantenha o mesma :grinning: ).
 18. Vá em *Configuration* &rarr; *Data Sources*  &rarr; *Add data source*
 19. Escolha o Data source type: *InfluxDB* e Preencha os campos para conexão com o banco de dados conforme abaixo:
 * Name: InfluxDB
