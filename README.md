@@ -61,18 +61,26 @@ Vamos retomar para o Browser (Firefox) e terminar de configurar os dados para qu
 26. Agora, deverá estar aparecendo as configurações: `Metrics`, vamos ajustar alguns parâmetros de busca no Banco de Dados conforme abaixo:
 ![Configuração da Consulta ao Bando de Dados](img/1.png)
 
-Configuração do nome do eixo-Y (y-Axis) para Temperatura em Celsius
+Configuração do nome do eixo-Y (y-Axis) para Temperatura em Celsius:
+
 ![Configuração do Eixo](img/2.png)
-Configuração da ligação entre os pontos do grafico (TimeSeries): se nulo ligue os últimos pontos.
+
+Configuração da ligação entre os pontos do grafico (TimeSeries): se nulo ligue os últimos pontos:
+
 ![Configuração da Ligração dos Pontos quando nulo](img/3.png)
-Nome do Gráfico *Temperatura*
+
+Nome do Gráfico *Temperatura*:
 ![Configuração do nome do grafico](img/4.png)
+
 27. Clique a opção salvar no canto superior direito e dê um nome ao Dashboard, *Temperatura*. Conforme imagem abaixo.
-Processo de *Save* do dashboard, menu direito superior para salvar.
+Processo de *Save* do dashboard, menu direito superior para salvar:
+
 ![Processo final](img/5.png)
 
-29. Agora na tela inicial: *Dashboards* &rarr; *Home* note que as informações de temperatura (*fake*) estarão aparecendo no gráfico. Tudo isso euquanto o cliente estiver mandando seus dados. Veja imagem abaixo.
+29. Agora na tela inicial: *Dashboards* &rarr; *Home* note que as informações de temperatura (*fake*) estarão aparecendo no gráfico. Tudo isso euquanto o cliente estiver mandando seus dados. Veja imagem abaixo:
+
 ![Configuração da Consulta ao Bando de Dados](img/6.png)
+
 ### Nesse ponto, você pode imaginar quantas aplicações ou sensores poderiam ser construídas a partir desse deplyoment? Quantos dashboards poderiam ser criados?
 
 ### Quais tipos de gráficos poderiam ser construídos?
