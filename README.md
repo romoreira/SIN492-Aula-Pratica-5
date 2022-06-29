@@ -1,6 +1,9 @@
 # SIN 492 - Internet das Coisas - Aula Prática 5
 ### 2022-1
-Descrição da Aula Prática: Nesta aula prática o estudante criará um seriço de Monitoramento IoT baseado nas ferramentas [Mosquitto]([https://link-url-here.org](https://mosquitto.org/))
+**Descrição**: Nesta aula prática o estudante criará um seriço de Monitoramento IoT baseado nas ferramentas: [Docker](https://www.docker.com/), [Mosquitto](https://mosquitto.org), [InfluxDB](https://www.influxdata.com/), [Grafana](https://grafana.com/). A construção do cenário considera conhecimento prévio em Comunicação em Rede de Computadores e Programação de Computadores.
+
+**Objetivos**: Com esta aula o estudante fica apto a construir Aplicações IoT utilizando ferramentas atuais do mercado.
+Método: Laboratório Prático (PVA 227), com instruções procedural documentada e apoio individualizado no processo de execução do laboratório.
 
 ### Passos:
 1. Inicialize o PC do Laboratório PVA 227 com Ubuntu. (Utilize seta para baixo no processo de Boot.)
@@ -43,7 +46,7 @@ Note que ao clicar em salvar, aparecerá o resultado do teste acima do botão, s
 ___
 A partir de agora, precisamos povoar o Banco de Dados (InfluxDB) com informações relacionados às coletas dos sensores IoT. Como não temos sensores IoT, usaremos um script em Python que atuará como tal.
 23. Abra uma nova aba no Terminal `CTRL + Shift + T` (ou outro Terminal) e instale o seguinte pacote: `pip3 install paho-mqtt` e `pip install paho-mqtt` &rarr; com esse cliente é possível publicar dados em um Broker MQTT.
-24. Note dentro do arquivo `iot-sensor.py` algumas informações importantes (digite o comando: `nano iot-sensor.py`:
+24. Abra o diretório *03-iotclient* por meio dos comandos: `cd 03-iotclient`. Note dentro do arquivo `iot-sensor.py` algumas informações importantes (digite o comando: `nano iot-sensor.py`:
 * O Endereço IP do Broker: 127.0.0.1
 * A Porta do Serviço de Rede: 1883
 * O Tópico dentro do Mosquitto que ele está escrevendo os valores: `iothon/bme280/temperature` &rarr; **bme280** é a referência à um sensor de temperatura (*fake*) e **temperature** é sua percepção do ambiente.
