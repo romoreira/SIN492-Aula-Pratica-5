@@ -23,15 +23,14 @@
 * `sudo chown -R 1883:1883 ${DATA_DIR}/mosquitto`
 * `sudo chown -R 472:472 ${DATA_DIR}/grafana`
 14. Faça o deployment da Aplicação com o comando: `docker-compose up -d`
-```
-Nsse momento serão criados Containers (Docker) das Aplicações: Mosquitto (Broker IoT), InfluxDB (Banco de Dados para armazenar de forma atemporal as informações enviadas pelos sensores), MqttBridge (Pipeline de dados dos sensores e armazenamento dentro do Banco de Dados) e Grafana (para apresentação dos dados coletados pelos sensores IoT)
-```
+> **_NOTE:_**  Nsse momento serão criados Containers (Docker) das Aplicações: Mosquitto (Broker IoT), InfluxDB (Banco de Dados para armazenar de forma atemporal as informações enviadas pelos sensores), MqttBridge (Pipeline de dados dos sensores e armazenamento dentro do Banco de Dados) e Grafana (para apresentação dos dados coletados pelos sensores IoT)
+
 15. Verifique se os containers estão no *status* de **Up**: `docker ps -a`
 16. Note as portas de rede onde os serviços estão expondo suas funcionalidades (conforme saída do comando acima):
 * 3000 - Grafana
 * 1883 - Mosquitto
 * 8086 - InfluxDB
-17. Abra o Browser (Firefox) e tente acessar o seriço Grafana: `http://127.0.0.1:3000/` *Usuário:* `admin` e *Password:* `admin` (Será pedida a alteração da senha no primeiro login, mantenha o mesma :grinning: ).
+17. Abra o Browser (Firefox) e tente acessar o seriço Grafana: `http://127.0.0.1:3000/` *Usuário:* `admin` e *Password:* `admin` (Será pedida a alteração da senha no primeiro login, mantenha a mesma :grinning: ).
 18. Vá em *Configuration* &rarr; *Data Sources*  &rarr; *Add data source*
 19. Escolha o Data source type: *InfluxDB* e Preencha os campos para conexão com o banco de dados conforme abaixo:
 * Name: InfluxDB
