@@ -23,7 +23,7 @@
 * `sudo chown -R 1883:1883 ${DATA_DIR}/mosquitto`
 * `sudo chown -R 472:472 ${DATA_DIR}/grafana`
 14. Faça o deployment da Aplicação com o comando: `docker-compose up -d`
-> **_NOTE:_**  Nsse momento serão criados Containers (Docker) das Aplicações: Mosquitto (Broker IoT), InfluxDB (Banco de Dados para armazenar de forma atemporal as informações enviadas pelos sensores), MqttBridge (Pipeline de dados dos sensores e armazenamento dentro do Banco de Dados) e Grafana (para apresentação dos dados coletados pelos sensores IoT)
+> **_NOTE:_**  Nsse momento serão criados Containers (Docker) das Aplicações: Mosquitto (Broker IoT), InfluxDB (Banco de Dados para armazenar de forma persistente as informações enviadas pelos sensores), MqttBridge (Pipeline de dados dos sensores e armazenamento dentro do Banco de Dados) e Grafana (para apresentação dos dados coletados pelos sensores IoT)
 
 15. Verifique se os containers estão no *status* de **Up**: `docker ps -a`
 16. Note as portas de rede onde os serviços estão expondo suas funcionalidades (conforme saída do comando acima):
