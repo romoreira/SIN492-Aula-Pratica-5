@@ -71,8 +71,12 @@ Nome do Gráfico *Temperatura*
 Processo de *Save* do dashboard, menu direito superior para salvar.
 ![Processo final](img/5.png)
 
-29. Agora na tela inicial: Dashboards &rarr; Home note que as informações de temperatura (*fake*) estarão aparecendo no gráfico. Tudo isso euquanto o cliente estiver mandando seus dados. Veja imagem abaixo.
+29. Agora na tela inicial: *Dashboards* &rarr; *Home* note que as informações de temperatura (*fake*) estarão aparecendo no gráfico. Tudo isso euquanto o cliente estiver mandando seus dados. Veja imagem abaixo.
 ![Configuração da Consulta ao Bando de Dados](img/6.png)
 ### Nesse ponto, você pode imaginar quantas aplicações ou sensores poderiam ser construídas a partir desse deplyoment? Quantos dashboards poderiam ser criados?
+
+###Quais tipos de gráficos poderiam ser construídos?
+###Como inserir mais gráficos exibindo outras métricas (alterando o arquivo *iot-sensor.py*)?
+###Você consideraria utilizar esse *deployment* par ao trabalho final da disciplina?
 
 
