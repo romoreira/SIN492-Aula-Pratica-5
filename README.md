@@ -75,8 +75,9 @@ Processo de *Save* do dashboard, menu direito superior para salvar.
 ![Configuração da Consulta ao Bando de Dados](img/6.png)
 ### Nesse ponto, você pode imaginar quantas aplicações ou sensores poderiam ser construídas a partir desse deplyoment? Quantos dashboards poderiam ser criados?
 
-###Quais tipos de gráficos poderiam ser construídos?
-###Como inserir mais gráficos exibindo outras métricas (alterando o arquivo *iot-sensor.py*)?
-###Você consideraria utilizar esse *deployment* par ao trabalho final da disciplina?
+### Quais tipos de gráficos poderiam ser construídos?
+### Experimente mudar a escala do gráfico.
+### Como inserir mais gráficos exibindo outras métricas (alterando o arquivo *iot-sensor.py*)?
+### Você consideraria utilizar esse *deployment* par ao trabalho final da disciplina?
 
 
