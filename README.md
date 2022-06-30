@@ -13,7 +13,7 @@
 4. `sudo apt-get install containerd git` &rarr; Para suporte do Ubuntu para containers.
 5. `sudo apt-get install docker.io docker-compose` &rarr; Para que possamos utilizar Containers Docker na máquina
 6. `sudo apt-get install python3-pip`&rarr; Para ser possível instalar posteriormente pacotes Python.
-7. `sudo usermod -aG docker ${USER}` &rarr; Para que o usuário ''aluno'' receba upgrade de sudo para rodar comandos Docker
+7. `sudo usermod -aG docker ${USER}` &rarr; Para que o usuário ''aluno'' receba upgrade de sudo para rodar comandos Docker. Dê reboot na máquina e logue novamente com Ubuntu, neste ponto as configurações terão sido aplicadas.
 8. Clone o Repositório no GitHub: `git cone https://github.com/romoreira/SIN492-Aula-Pratica-5`
 9. Abra o diretório  **SIN492-Aula-Pratica-5/00-docker**:  `cd SIN492-Aula-Pratica-5/00-docker` &rarr; o arquivo de deployment da aula está nesse diretório.
 10. Torne-se seu usuario aluno **sudo**: `sudo su` &rarr; Criaremos os deployment do serviço nesse modo.
