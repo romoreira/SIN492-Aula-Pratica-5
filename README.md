@@ -15,7 +15,7 @@
 6. `sudo apt-get install python3-pip`&rarr; Para ser possível instalar posteriormente pacotes Python.
 7. `sudo usermod -aG docker ${USER}` &rarr; Para que o usuário ''aluno'' receba upgrade de sudo para rodar comandos Docker
 8. Clone o Repositório no GitHub: `git cone https://github.com/romoreira/SIN492-Aula-Pratica-5`
-9. Abra o diretório  **SIN492-Aula-Pratica-5/00-docker**:  `cd SIN492-Aula-Pratica-5/00-docker` &rarr; o arquido de deployment da aula está nesse diretório.
+9. Abra o diretório  **SIN492-Aula-Pratica-5/00-docker**:  `cd SIN492-Aula-Pratica-5/00-docker` &rarr; o arquivo de deployment da aula está nesse diretório.
 10. Torne-se seu usuario aluno **sudo**: `sudo su` &rarr; Criaremos os deployment do serviço nesse modo.
 11. Crie uma variável de ambiente *DATA_DIR* onde os logs da Aplicação IoT irão ser registrados: `export DATA_DIR=/tmp`
 12. Crie o diretório para registro de logs do *Mosquitto*, *InfluxDB* e *Grafan*a: `mkdir -p ${DATA_DIR}/mosquitto/data ${DATA_DIR}/mosquitto/log ${DATA_DIR}/influxdb ${DATA_DIR}/grafana`
