@@ -6,6 +6,8 @@
 
 **Método**: Laboratório Prático (PVA 227), com instruções procedural documentadas e apoio individualizado no processo de execução do laboratório.
 
+**Prazo de Entrega**: 06/07/2022 21:00 Horas.
+
 ### Passos:
 1. Inicialize o PC do Laboratório PVA 227 com Ubuntu. (Utilize seta para baixo no processo de Boot.)
 2. Logue com user and pass (aluno, 123456)
