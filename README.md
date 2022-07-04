@@ -88,5 +88,8 @@ Processo de *Save* do dashboard, menu direito superior para salvar:
 ### Experimente mudar a escala do gráfico.
 ### Como inserir mais gráficos exibindo outras métricas (alterando o arquivo *iot-sensor.py*)?
 ### Você consideraria utilizar esse *deployment* par ao trabalho final da disciplina?
+### Se você usar outra métrica (alternativa a métrica) acontece alguma modificação no gráfico?
+
+Enviar Relatório considerando as questões acima no Moodle.
 
 
